@@ -21,3 +21,16 @@ Language-specific native rules
 | Workspace     | bind local_repository new_local_repository                            |
 
 ## C\C++ Rules
+### Binary rules
+#### cc_binary
+##### function：
+		cc_binary(name, deps, srcs, data, additional_linker_inputs, args, compatible_with, copts, defines, deprecation, distribs, env, exec_compatible_with, exec_properties, features, includes, licenses, linkopts, linkshared, linkstatic, local_defines, malloc, nocopts, output_licenses, restricted_to, stamp, tags, target_compatible_with, testonly, toolchains, visibility, win_def_file)
+##### 用途：
+		产生binary的rule
+##### demo：
+		hello-world依赖了hello-greet library
+![image](https://user-images.githubusercontent.com/20507750/166909050-7c6d458d-d781-480c-a3f4-21bf8b358677.png)
+
+##### 属性
+
+
